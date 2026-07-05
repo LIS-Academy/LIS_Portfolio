@@ -1,0 +1,329 @@
+/* ==========================================================================
+   LIS Academy — shared stylesheet
+   Used by: index.html, track-data-analysis.html, course-data-analysis.html,
+            course-python.html
+   ========================================================================== */
+
+:root {
+  --c1: #145fff;
+  --c2: #1476ff;
+  --c3: #14a1ff;
+  --c4: #14adff;
+  --ink: #0d1b2a;
+}
+
+body {
+  color: #1f2937;
+}
+
+/* ---------- Navbar ---------- */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--c1) !important;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 44px;
+  width: auto;
+  display: block;
+}
+.navbar-subtitle {
+  font-size: 0.8rem;
+  color: var(--c3);
+  margin-left: 3px;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: var(--c1) !important;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  background: linear-gradient(135deg, var(--c2), var(--c4));
+}
+
+/* Smaller hero used at the top of detail pages */
+.page-hero {
+  background: linear-gradient(135deg, var(--c2), var(--c4));
+  color: #fff;
+}
+.page-hero .breadcrumb-link {
+  color: #eaf4ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.page-hero .breadcrumb-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.page-hero .duration-badge {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  border-radius: 50rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* ---------- Section eyebrow label ---------- */
+.section-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--c1);
+}
+
+/* ---------- Cards (tracks / courses) ---------- */
+.course,
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.course:hover,
+.card-hover:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 10px 24px rgba(20, 95, 255, 0.16);
+}
+.course-img,
+.track-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.track-img {
+  height: 240px;
+}
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+.card-link:hover {
+  color: inherit;
+}
+.icon-badge {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--c1), var(--c4));
+  color: #fff;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+.hours-pill {
+  background: #eaf2ff;
+  color: var(--c1);
+  font-weight: 600;
+  border-radius: 50rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* ---------- Advantages / feature list ---------- */
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+.feature-item .icon-badge {
+  width: 40px;
+  height: 40px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+/* ---------- Roadmap timeline ---------- */
+.roadmap {
+  position: relative;
+  padding: 1rem 0;
+}
+.roadmap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 28px;
+  width: 3px;
+  background: linear-gradient(180deg, var(--c1), var(--c4));
+  border-radius: 3px;
+}
+.roadmap-item {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+.roadmap-marker {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--c1), var(--c4));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  box-shadow: 0 6px 16px rgba(20, 95, 255, 0.35);
+  border: 4px solid #fff;
+}
+.roadmap-content {
+  flex: 1;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.1rem 1.4rem;
+  box-shadow: 0 4px 16px rgba(13, 27, 42, 0.08);
+}
+.roadmap-content h5 {
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.roadmap-stage-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--c2);
+}
+.roadmap-content ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+.roadmap-content ul li {
+  margin-bottom: 0.25rem;
+  color: #4b5563;
+}
+.roadmap-final {
+  background: linear-gradient(135deg, rgba(20, 95, 255, 0.06), rgba(20, 173, 255, 0.1));
+  border: 1px dashed var(--c3);
+}
+
+/* Two-column alternating timeline kicks in from tablet (iPad) width up */
+@media (min-width: 768px) {
+  .roadmap::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .roadmap-item {
+    justify-content: flex-end;
+  }
+  .roadmap-item .roadmap-marker {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .roadmap-item .roadmap-content {
+    width: calc(50% - 55px);
+  }
+  .roadmap-item:nth-child(odd) {
+    justify-content: flex-start;
+  }
+  .roadmap-marker {
+    top: 0.25rem;
+  }
+}
+
+/* Slightly roomier timeline gutter once there's more width to spare */
+@media (min-width: 992px) {
+  .roadmap-item .roadmap-content {
+    width: calc(50% - 60px);
+  }
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: var(--ink);
+  color: #d9e2ec;
+}
+footer a {
+  color: #d9e2ec;
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--c4);
+}
+footer h5 {
+  color: #fff;
+}
+.footer-logo {
+  height: 40px;
+  width: auto;
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.contact-link .contact-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+.contact-icon.whatsapp {
+  background: #25d366;
+}
+.contact-icon.gmail {
+  background: #ea4335;
+}
+
+/* ---------- FAQ ---------- */
+.accordion-button:not(.collapsed) {
+  color: var(--c1);
+  background-color: #eaf2ff;
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(20, 95, 255, 0.2);
+}
+
+/* ---------- Carousel (kept for future use) ---------- */
+.carousel-indicators {
+  margin-top: 2rem;
+}
+.carousel-indicators button {
+  background-color: var(--c1) !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* ---------- CTA buttons ---------- */
+.btn-brand {
+  background: linear-gradient(135deg, var(--c1), var(--c4));
+  border: none;
+  color: #fff;
+}
+.btn-brand:hover {
+  color: #fff;
+  filter: brightness(1.05);
+}
+.btn-outline-brand {
+  border: 1px solid var(--c1);
+  color: var(--c1);
+}
+.btn-outline-brand:hover {
+  background: var(--c1);
+  color: #fff;
+}

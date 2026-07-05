@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LIS Academy - Learn Improve Success</title>
+    <link rel="icon" href="assets/logo.jpeg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-lg bg-white shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo-navbar.png" alt="LIS Academy" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#track">Tracks</a></li>
+            <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero text-white text-center py-5 rounded-4 shadow container my-5">
+      <h1 class="fw-bold display-4">Let's Start Now!</h1>
+      <p class="mt-3 lead">Learn, Improve, and Achieve Success with LIS</p>
+      <a href="#track" class="btn btn-light btn-lg mt-3 shadow-sm rounded-pill">Explore All Tracks</a>
+    </section>
+
+    <!-- == > tracks -->
+    <section class="container my-5" id="track">
+      <p class="section-eyebrow text-center mb-1">Our Track</p>
+      <h2 class="text-center mb-4">Tracks Categories</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <a href="track-data-analysis.html" class="card-link">
+            <div class="card shadow rounded-4 border-0 h-100 card-hover overflow-hidden">
+              <img src="assets/data-analytics.png" class="track-img" alt="Data Analysis Track" />
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center gap-3 mb-2">
+                  <span class="icon-badge"><i class="bi bi-bar-chart-line"></i></span>
+                  <h5 class="mb-0">Data Analysis Track</h5>
+                </div>
+                <p class="text-muted mb-3">A complete, structured career path covering Python, statistics, databases, Excel, and Power BI — finished with a real-world capstone project.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="hours-pill"><i class="bi bi-clock-history"></i> 130+ hours</span>
+                  <span class="btn btn-outline-brand btn-sm rounded-pill">View Track <i class="bi bi-arrow-right"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- == > courses  -->
+    <section id="courses" class="container my-5">
+      <p class="section-eyebrow text-center mb-1">Our Courses</p>
+      <h2 class="text-center mb-4">Courses</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <a href="course-python.html" class="card-link">
+            <div class="card shadow rounded-4 border-0 h-100 card-hover overflow-hidden">
+              <img src="assets/python.png" class="course-img" alt="Python Course" />
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center gap-3 mb-2">
+                  <span class="icon-badge"><i class="bi bi-code-slash"></i></span>
+                  <h5 class="mb-0">Python</h5>
+                </div>
+                <p class="text-muted mb-3">Build a solid programming foundation in Python — from variables and loops to functions and object-oriented programming.</p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="hours-pill"><i class="bi bi-clock-history"></i> 60+ hours</span>
+                  <span class="btn btn-outline-brand btn-sm rounded-pill">View Course <i class="bi bi-arrow-right"></i></span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2 class="text-center mb-4">FAQ</h2>
+      <div class="accordion shadow rounded-4" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">What is LIS?</button>
+          </h2>
+          <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">LIS is an online platform that helps you learn, improve, and succeed with modern skills.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">Do I get a certificate?</button>
+          </h2>
+          <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Yes, certificates are provided for completed premium courses.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3">Can I learn at my own pace?</button>
+          </h2>
+          <div id="q3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Absolutely, you can learn anytime and anywhere at your own speed.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5 py-5">
+      <div class="container ">
+        <div class="row mb-5 pb-5 gy-4">
+          <div class="col-md-4">
+            <h5 id="about">About</h5>
+            <p>LIS helps learners achieve success by offering diverse tracks and expert-led courses. We believe in accessible education for all, blending innovation with practical skills. Our mission is to empower students to master modern technologies and grow their careers. With a strong commitment to quality and continuous improvement, LIS ensures that every learner can <strong>learn, improve, and succeed</strong> in a supportive environment.</p>
+          </div>
+          <div class="col-md-4 text-md-center">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#track">Tracks</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 id="contact">Contact</h5>
+            <a class="contact-link" href="https://wa.me/201035703083" target="_blank" rel="noopener">
+
+              <span class="contact-icon whatsapp"><i class="bi bi-whatsapp"></i></span>
+              <span>+20 1035703083</span>
+            </a>
+            <a class="contact-link" href="mailto:academylis6@gmail.com">
+              <span class="contact-icon gmail"><i class="bi bi-envelope-fill"></i></span>
+              <span>academylis6@gmail.com</span>
+            </a>
+          </div>
+        </div>
+        <div class="text-center mt-4">&copy; 2025 LIS Academy - All Rights Reserved</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

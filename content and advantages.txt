@@ -1,0 +1,106 @@
+Data Analysis Course Roadmap
+sprint 1 – Introduction to Data Analysis
+What is Data Analysis?
+Types of Data
+Data Pipeline
+Important Data Tools
+sprint 2 – Python Fundamentals
+Introduction to Python
+Data Structures Overview
+Data Collection Techniques
+
+sprint 3 – Python Libraries for Data Analysis
+NumPy
+Pandas
+Matplotlib
+Seaborn
+
+sprint 4 – Statistics
+Introduction to Statistics
+Descriptive vs Inferential Statistics
+Probability
+Hypothesis Testing
+Statistical Tests
+sprint 5 – Data Analysis Using Python
+Data Cleaning
+Handling Different Data Formats
+Exploratory Data Analysis (EDA)
+
+sprint 6 – Database Fundamentals
+Introduction to Databases
+Types of Databases
+Choosing the Right Database
+SQL vs NoSQL
+SQL for Data Analysis
+Data Modeling
+ERD (Entity Relationship Diagram)
+Mapping
+sprint 7 – Excel for Data Analysis
+Working with Excel Sheets
+Creating Graphs
+Excel Formulas
+Excel Dashboards
+
+sprint 8 – Power BI
+Introduction to Data Analysis Tools
+Power BI vs Tableau
+Creating Power BI Dashboards
+Integrating Power BI with Different Data Sources
+Introduction to Data Engineering
+sprint 9 – Power Query
+Introduction to Power Query
+Why Use Power Query?
+Power Query Interface
+Supported Data Sources
+Data Cleaning
+Data Preprocessing
+Data Transformation
+Introduction to M Language
+
+sprint 10 data warehouse
+Data Warehouse
+ETL / ELT
+AWS
+Microsoft Azure
+Google Cloud Platform (GCP)
+
+- Final Project
+
+Build a complete end-to-end data analysis pipeline that includes:
+
+Data collection
+Data cleaning
+Data preprocessing
+Exploratory Data Analysis (EDA)
+Data visualization
+Dashboard creation
+Generating actionable business insights from a real-world dataset
+
+Advantages
+✅ 24-hour support (دعم 24 ساعة)
+✅ Online attendance 
+✅ Continuous tasks and assignments (تاسكات باستمرار)
+✅ Qualified instructors (مدربين مؤهلين)
+✅ Practical projects (مشاريع عملية)
+✅ Receive certificates (Training + Diploma) (الحصول على شهادتين: تدريب + دبلومة)
+130+ hours 
+
+-----------------------------------------------------------------------------
+
+python course 60+ hours 
+
+- intro to python
+- variables operators 
+- selections and loops 
+- functions
+- lists 
+- tuple and strings 
+- nested list
+- dictionary and sets 
+- modules and packages 
+- files and exceptions 
+- recursive
+- oop intro
+- oop 
+
+contacts
